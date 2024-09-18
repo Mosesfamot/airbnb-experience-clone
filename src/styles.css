@@ -25,17 +25,24 @@
 }
 
 .container {
+  width: 100%;
+}
+
+.container .hero-image {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
-}
-
-.container .hero-image {
-  width: 40rem;
   margin-top: 1.5rem;
 }
 
-.container h2 {
-  text-align: left;
+.hero-image img {
+  width: 40rem;
+}
+
+.container .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
