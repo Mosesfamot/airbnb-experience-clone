@@ -23,3 +23,19 @@
 .navbar .logo {
   max-width: 8.5rem;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+
+.container .hero-image {
+  width: 40rem;
+  margin-top: 1.5rem;
+}
+
+.container h2 {
+  text-align: left;
+}
