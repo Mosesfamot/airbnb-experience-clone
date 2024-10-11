@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Card from './components/Card';
 import './styles.css';
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
     <section>
       <Navbar />
       <Hero />
+      <Card />
     </section>
   )
 }
