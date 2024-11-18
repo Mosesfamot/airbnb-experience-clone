@@ -10,7 +10,13 @@ export default function App() {
   const cardData = Data.map(item => {
     return <Card
       key={item.id}
-      item={item}
+      {...item}
+
+      //This method picks the data from the data file but .item must be attached where each
+      //file is having a unique data
+      // item={item}
+
+      //This methods is stressful as you have to create a var for each data
       // title={item.title}
       // description={item.description}
       // price={item.price}
