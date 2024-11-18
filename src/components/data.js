@@ -1,7 +1,7 @@
 const data = [
     {
         id: 1,
-        title: "Life Lessons with Katie Zaferes",
+        title: "Life Lessons with Katie Caferes",
         description: "Interested in becoming a wedding photograher? For beginner and experinced photographers alike join us in learning techniques required to leave the happy couple with memories that'll last a lifetime",
         price: 120,
         coverImg: require('../images/image-card1.png'),
@@ -10,7 +10,7 @@ const data = [
             reviewCount: 20
         },
         location: "USA",
-        openSpots: 10,
+        openSpots: 0,
     },
     {
         id: 2,
@@ -22,7 +22,7 @@ const data = [
             rating: 5.0,
             reviewCount: 20
         },
-        location: "Online",
+        location: "UK",
         openSpots: 10,
     },
     {
@@ -35,7 +35,7 @@ const data = [
             rating: 5.0,
             reviewCount: 20
         },
-        location: "Online",
+        location: "CAN",
         openSpots: 10,
     },
     {
